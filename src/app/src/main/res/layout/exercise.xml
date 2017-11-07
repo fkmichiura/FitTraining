@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_exercise"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="2dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80EEEEEE"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/exercise_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/exercise_image"
+            android:padding="8dp"
+            android:src="@drawable/ic_exerc01" />
+
+        <TextView
+            android:id="@+id/exercise_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:padding="8dp"
+            android:text="@string/exercise_title"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

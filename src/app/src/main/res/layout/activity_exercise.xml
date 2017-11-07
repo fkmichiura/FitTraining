@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/exercise_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_training2"
+    tools:context="com.fkmichiura.project.fittraining.Activities.ExerciseListActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activity_exercise_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="48dp"
+        android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/noticeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="48dp"
+        android:text="@string/exercise_notice"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/exFloatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_plus"
+        app:backgroundTint="#39FF14"
+        app:fabSize="normal" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/black"
+        android:paddingTop="52dp">
+
+    </FrameLayout>
+
+</FrameLayout>

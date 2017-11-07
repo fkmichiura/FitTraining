@@ -1,0 +1,439 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/bg_profile"
+    android:orientation="vertical"
+    tools:context="com.fkmichiura.project.fittraining.Fragments.ProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="72dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#50999999"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="8dp"
+                        android:text="@string/user_name"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/dbName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:background="#50999999"
+                        android:cursorVisible="false"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingBottom="4dp"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="16dp"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/edit_name_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:background="#50999999"
+                    android:contentDescription="@string/edit_icon"
+                    android:padding="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:src="@drawable/ic_edit" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ageLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#50999999"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="8dp"
+                        android:text="@string/user_age"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/dbAge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:background="#50999999"
+                        android:imeOptions="actionDone"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:paddingBottom="4dp"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="16dp"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/edit_age_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:background="#50999999"
+                    android:contentDescription="@string/edit_icon"
+                    android:padding="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:src="@drawable/ic_edit" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/weightLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#50999999"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="8dp"
+                        android:text="@string/user_weight"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/dbWeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:background="#50999999"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:paddingBottom="4dp"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="16dp"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/edit_weight_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:background="#50999999"
+                    android:contentDescription="@string/edit_icon"
+                    android:padding="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:src="@drawable/ic_edit" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/gymLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#50999999"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="8dp"
+                        android:text="@string/user_gym"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/dbGym"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:background="#50999999"
+                        android:inputType="text"
+                        android:paddingBottom="4dp"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="16dp"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/edit_gym_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:background="#50999999"
+                    android:contentDescription="@string/edit_icon"
+                    android:padding="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:src="@drawable/ic_edit" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/evalLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#50999999"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="8dp"
+                        android:text="@string/user_evaluation"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dbEval"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:background="#50999999"
+                        android:paddingBottom="4dp"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="16dp"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/edit_eval_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:background="#50999999"
+                    android:contentDescription="@string/edit_icon"
+                    android:padding="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:src="@drawable/ic_edit" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nextEvalLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#50999999"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="8dp"
+                        android:text="@string/user_revaluation"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dbNextEval"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:background="#50999999"
+                        android:paddingBottom="4dp"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="16dp"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/edit_reval_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:background="#50999999"
+                    android:contentDescription="@string/edit_icon"
+                    android:padding="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:src="@drawable/ic_edit" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/instructorLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#50999999"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="8dp"
+                        android:text="@string/user_professor"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/dbInstructor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#50999999"
+                        android:inputType="text"
+                        android:paddingBottom="4dp"
+                        android:paddingEnd="8dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="8dp"
+                        android:paddingStart="16dp"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/edit_prof_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#50999999"
+                    android:contentDescription="@string/edit_icon"
+                    android:padding="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:src="@drawable/ic_edit" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/black"
+        android:paddingBottom="52dp">
+
+    </FrameLayout>
+
+</FrameLayout>

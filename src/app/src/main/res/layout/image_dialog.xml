@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="400dp"
+        android:layout_height="316dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Imagem do exercício expandido"
+        android:src="@drawable/ic_exerc01" />
+
+    <Button
+        android:id="@+id/dialog_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_image"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_rounded_button"
+        android:text="@string/close_button"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Backup\Dropbox\Projects\FitTraining\app\libs\yandex-metrica-2.62.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04d1c3b83bcab82397680878b1ca17e182297331">
+        <dex dex="D:\Backup\Dropbox\Projects\FitTraining\app\build\intermediates\pre-dexed\debug\yandex-metrica-2.62_77af831298a1e8fe69202be53b50341aed4703d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Backup\Dropbox\Projects\FitTraining\app\libs\unity-ads-2.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c7f171ceec8f0426513283ea1c286be3cfe02ea">
+        <dex dex="D:\Backup\Dropbox\Projects\FitTraining\app\build\intermediates\pre-dexed\debug\unity-ads-2.0.4_56de9ad26eba6afff7884a6c65d457889a32f5e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Backup\Dropbox\Projects\FitTraining\app\libs\appodeal-1.15.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="788f095f5e953ffc89fe582b435cf7037b1213c7">
+        <dex dex="D:\Backup\Dropbox\Projects\FitTraining\app\build\intermediates\pre-dexed\debug\appodeal-1.15.9_f1ae4aa4783df6ec782a6b3c2c49e40d9c2754fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Backup\Dropbox\Projects\FitTraining\app\libs\my-target-4.5.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d9b123b92df5831970573dc06101433a43ce7de">
+        <dex dex="D:\Backup\Dropbox\Projects\FitTraining\app\build\intermediates\pre-dexed\debug\my-target-4.5.10_9b67ddfb0f3b4662441399c971bca66907801e36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Backup\Dropbox\Projects\FitTraining\app\libs\flurry-analytics-6.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a71a56220d8166ef900718ac8e01c9e94bfae6ce">
+        <dex dex="D:\Backup\Dropbox\Projects\FitTraining\app\build\intermediates\pre-dexed\debug\flurry-analytics-6.5.0_b32b85ae18eb765fbd51fb341ee2cb2eb76f8afc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Backup\Dropbox\Projects\FitTraining\app\libs\chartboost-6.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aaa29107dfac6f930b9a43e601bef83d2be7269a">
+        <dex dex="D:\Backup\Dropbox\Projects\FitTraining\app\build\intermediates\pre-dexed\debug\chartboost-6.6.1_0702487db9cf12cc376dbb21d327c861b83ca162.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Backup\Dropbox\Projects\FitTraining\app\libs\applovin-6.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="32745c49118c24ffd700489db8a46c66972d7bf2">
+        <dex dex="D:\Backup\Dropbox\Projects\FitTraining\app\build\intermediates\pre-dexed\debug\applovin-6.3.0_834b06951370784f6992953f7336fea19339f173.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DarKnigHt\.android\build-cache\15254d61299a6037d19c227a2bea7a5784c5751c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b905bcfc1f20970fea5bafb08eb8252f1953aef">
+        <dex dex="D:\Backup\Dropbox\Projects\FitTraining\app\build\intermediates\pre-dexed\debug\classes_71ca9838d78ba4e0c5404eac8c63dc8db13764c0.jar" />
+    </item>
+
+</items>

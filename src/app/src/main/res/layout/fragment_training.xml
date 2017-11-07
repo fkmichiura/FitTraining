@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_training"
+    tools:context="com.fkmichiura.project.fittraining.Fragments.TrainingFragment">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="48dp"
+        android:layout_marginTop="136dp" />
+
+    <TextView
+        android:id="@+id/training_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="64dp"
+        android:text="@string/training_notice"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_plus"
+        app:backgroundTint="#39FF14"
+        app:fabSize="normal" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/black"
+        android:paddingTop="52dp">
+
+    </FrameLayout>
+
+</FrameLayout>

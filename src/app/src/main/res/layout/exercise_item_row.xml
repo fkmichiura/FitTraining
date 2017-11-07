@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_exercise"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="2dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rounded_item"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_rounded_item"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/exercise_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:paddingEnd="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/exercise_item_rep"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DBrepetitions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingEnd="8dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="8dp"
+                android:paddingStart="32dp"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/exercise_series"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:paddingEnd="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/exercise_item_weight"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DBweight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="8dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="8dp"
+                android:paddingStart="32dp"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_rounded_item"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/exercise_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="2dp"
+                android:paddingEnd="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/exercise_item_date"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DBdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="4dp"
+                android:paddingEnd="8dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="8dp"
+                android:paddingStart="32dp"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/exercise_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:paddingEnd="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/exercise_item_time"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DBtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:paddingEnd="8dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="8dp"
+                android:paddingStart="32dp"
+                android:textColor="@android:color/background_light"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edit_btn"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/ic_edit"
+        android:layout_marginRight="32dp" />
+
+</android.support.v7.widget.CardView>

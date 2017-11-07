@@ -1,0 +1,406 @@
+<resources>
+    <string name="app_logo">App Logo</string>
+    <string name="app_name">FitTraining</string>
+    <string name="user_name">Nome</string>
+    <string name="user_age">Idade</string>
+    <string name="user_weight">Peso inicial</string>
+    <string name="user_gym">Academia</string>
+    <string name="user_evaluation">Data da Última Avaliação</string>
+    <string name="user_revaluation">Data da Próxima Avaliação</string>
+    <string name="user_professor">Professor / Avaliador</string>
+    <string name="register">Cadastrar</string>
+    <string name="start_training">Iniciar meu Treino</string>
+    <string name="confirm_exercises">Confirmar Exercícios</string>
+    <string name="exercise_image">Exercise image</string>
+    <string name="expand_arrow">Expand arrow</string>
+    <string name="category_title">Nome da Categoria</string>
+    <string name="exercise_title">Nome do Exercício</string>
+    <string name="exercise_item_repetition_avg">Média de Repetições</string>
+    <string name="exercise_item_series_number">Número de Séries</string>
+    <string name="exercise_item_break_time">Tempo Médio de Pausa</string>
+    <string name="exercise_item_rep">Repetições</string>
+    <string name="exercise_item_date">Data</string>
+    <string name="exercise_item_time">Hora</string>
+    <string name="exercise_item_weight">Peso</string>
+    <string name="exercise_item_athlete_weight">Peso do Atleta</string>
+    <string name="training_image">Imagem do Treino</string>
+    <string name="training_description">Descrição do Treino</string>
+    <string name="training_title">Título do Treino</string>
+    <string name="training_notice">Você não possui Treinos, clique no Botão (+) para criar o seu tipo de Treino</string>
+    <string name="exercise_notice">Você não possui Exercícios, clique no Botão (+) para criar o seu Treino</string>
+    <string name="exercise_item_notice">Você não possui nenhuma informação do seu exercício, clique no Botão (+) para adicionar seus dados</string>
+    <string name="weight_notice">Você não possui nenhum valor de peso registrado, clique no Botão (+) para adicionar o seu Peso</string>
+    <string name="edit_icon">Edit icon</string>
+    <string name="close_button">FECHAR</string>
+    <string name="exercise_expanded">Imagem do exercício expandido</string>
+    <string name="back_button">Voltar</string>
+    <string name="credits_image">Imagem dos créditos</string>
+    <string name="profile_profession">Profissão</string>
+    <string name="profile_fullname">Nome Completo</string>
+    <string name="profile_email">dev@email.com</string>
+    <string name="credits_button">Créditos</string>
+
+    <string-array name="training_type_array">
+        <item>Treino A</item>
+        <item>Treino B</item>
+        <item>Treino C</item>
+        <item>Treino D</item>
+        <item>Treino E</item>
+    </string-array>
+
+    <string-array name="training_desc_array">
+        <item>Descrição A</item>
+        <item>Descrição B</item>
+        <item>Descrição C</item>
+        <item>Descrição D</item>
+        <item>Descrição E</item>
+    </string-array>
+
+    <string-array name="training_array">
+        <item>Treino AB</item>
+        <item>Treino ABC</item>
+        <item>Treino ABCD</item>
+        <item>Treino ABCDE</item>
+    </string-array>
+
+<!-- Exercícios de Peitoral -->
+    <string-array name="img_peitoral">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+    </string-array>
+
+    <string-array name="exercises_array">
+        <item>Supino com Barra</item>
+        <item>Supino Inclinado com Barra</item>
+        <item>Supino Declinado com Barra</item>
+        <item>Supino em Máquina</item>
+        <item>Supino com Halteres</item>
+        <item>Supino Inclinado com Halteres</item>
+        <item>Supino Declinado com Halteres</item>
+        <item>Crucifixo com Halteres</item>
+        <item>Crucifixo Inclinado com Halteres</item>
+        <item>Crucifixo Declinado com Halteres</item>
+        <item>Crucifixo Deitado em Polia Baixa</item>
+        <item>Crucifixo em Pé em Polia Baixa</item>
+        <item>Crucifixo em Máquina</item>
+    </string-array>
+
+<!-- Exercícios Dorsais -->
+    <string-array name="img_costas">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+    </string-array>
+
+    <string-array name="exercises_array2">
+        <item>Peso Morto / Levantamento Terra</item>
+        <item>Puxador Costas em Polia Alta</item>
+        <item>Puxador Costas em Polia Alta em Supinação</item>
+        <item>Remada com Barra</item>
+        <item>Remada com Barra em Supinação</item>
+        <item>Remada em Máquina</item>
+        <item>Remada em Polia Baixa</item>
+        <item>Remada em Polia Baixa a uma Mão</item>
+        <item>Remada com Halter</item>
+        <item>Remada em Barra T</item>
+        <item>Encolhimento de Ombros com Halteres</item>
+        <item>Encolhimento de Ombros com Barra</item>
+        <item>Encolhimento de Ombros com Barra Atrás</item>
+    </string-array>
+
+<!-- Exercícios de Ombros -->
+    <string-array name="img_ombros">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+    </string-array>
+
+    <string-array name="exercises_array3">
+        <item>Press Militar com Barra</item>
+        <item>Press Militar com Halteres</item>
+        <item>Remada Vertical</item>
+        <item>Elevações Frontais com Barra</item>
+        <item>Elevações Frontais com Halter / Em Pronação</item>
+        <item>Elevações Frontais com Halter / Em Semi-Pronação</item>
+        <item>Elevação Lateral com Halteres</item>
+        <item>Elevação Lateral na Máquina</item>
+        <item>Elevação Lateral na Polia</item>
+        <item>Voos com Halteres</item>
+        <item>Voos com Halteres / Cabeça Apoiada</item>
+        <item>Voos em Máquina</item>
+        <item>Voos em Polia Alta</item>
+    </string-array>
+
+<!-- Exercícios de Bíceps -->
+    <string-array name="img_biceps">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+    </string-array>
+
+    <string-array name="exercises_array4">
+        <item>Rosca com Barra</item>
+        <item>Rosca com Halteres</item>
+        <item>Rosca Concentrada</item>
+        <item>Rosca Scott com Barra</item>
+        <item>Rosca Scott com Halter</item>
+        <item>Rosca Scott em Máquina</item>
+        <item>Rosca em Máquina</item>
+        <item>Rosca em Polia Baixa</item>
+        <item>Rosca Bíceps em Polia Alta</item>
+    </string-array>
+
+<!-- Exercícios de Tríceps -->
+    <string-array name="img_triceps">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+    </string-array>
+
+    <string-array name="exercises_array5">
+        <item>Fundos em Barras Paralelas</item>
+        <item>Fundos em Máquina</item>
+        <item>Supino Pega Junta</item>
+        <item>Extensões de Tríceps Deitado com Barra</item>
+        <item>Extensões de Tríceps Sentado com Barra</item>
+        <item>Extensões de Tríceps Sentado com Halter</item>
+        <item>Puxador Tríceps</item>
+        <item>Puxador Tríceps em Supinação</item>
+        <item>Puxador Tríceps com Corda</item>
+        <item>Kickback</item>
+        <item>Kickback em Polia</item>
+    </string-array>
+
+<!-- Exercícios de Antebraços -->
+    <string-array name="img_antebracos">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+    </string-array>
+
+    <string-array name="exercises_array6">
+        <item>Rosca com Barra em Pronação</item>
+        <item>Rosca com Halter em Semi-Pronação</item>
+        <item>Flexão dos Punhos em Pronação</item>
+        <item>Flexão dos Punhos em Supinação</item>
+    </string-array>
+
+<!-- Exercícios de Abdominais -->
+    <string-array name="img_abdominais">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+    </string-array>
+
+    <string-array name="exercises_array7">
+        <item>Flexão do Quadril Suspenso em Barra Fixa</item>
+        <item>Flexão do Quadril em Banco Plano</item>
+        <item>Flexão do Quadril em Banco Inclinado</item>
+        <item>Flexão do Quadril em Banco Inclinado com Halter</item>
+        <item>Abdominal com Flexão do Quadril</item>
+        <item>Abdominal em Banco Inclinado</item>
+        <item>Abdominal em Polia Alta</item>
+        <item>Rotação do Tronco com Bastão</item>
+        <item>Prancha</item>
+        <item>Prancha Lateral</item>
+        <item>Abdominal em Roda</item>
+        <item>Abdominal em Roda / Em Pé</item>
+    </string-array>
+
+<!-- Exercícios de Lombares -->
+    <string-array name="img_lombares">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+    </string-array>
+
+    <string-array name="exercises_array8">
+        <item>Bom Dia</item>
+        <item>Hiperextensões</item>
+        <item>Hiperextensões em Banco Inclinado</item>
+        <item>Hiperextensões em Máquina</item>
+        <item>Flutter Kicks</item>
+        <item>Super-Homem</item>
+        <item>Elevação Alternada de Segmentos</item>
+    </string-array>
+
+<!-- Exercícios de Quadríceps -->
+    <string-array name="img_quadriceps">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+    </string-array>
+
+    <string-array name="exercises_array9">
+        <item>Agachamento com Barra</item>
+        <item>Agachamento Frontal</item>
+        <item>Agachamento Hack em Máquina</item>
+        <item>Prensa de Pernas</item>
+        <item>Afundo</item>
+        <item>Afundo com Barra</item>
+        <item>Extensões de Pernas</item>
+    </string-array>
+
+<!-- Exercícios de Glúteos -->
+    <string-array name="img_gluteos">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+    </string-array>
+
+    <string-array name="exercises_array10">
+        <item>Step-up</item>
+        <item>Extensão do Quadril em Máquina</item>
+        <item>Extensão do Quadril em Polia Baixa</item>
+        <item>Extensão do Quadril no Solo</item>
+        <item>Extensão do Quadril com Pés Apoiados no Chão</item>
+        <item>Extensão do Quadril com Pés Apoiados no Banco</item>
+    </string-array>
+
+<!-- Exercícios de Isquiotibiais -->
+    <string-array name="img_isquiotibiais">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+    </string-array>
+
+    <string-array name="exercises_array11">
+        <item>Peso Morto / Levantamento Terra a Pernas Retas</item>
+        <item>Bom Dia a Pernas Retas</item>
+        <item>Flexão de Pernas</item>
+        <item>Flexão de Pernas em Pé</item>
+    </string-array>
+
+<!-- Exercícios de Adutores -->
+    <string-array name="img_adutores">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+    </string-array>
+
+    <string-array name="exercises_array12">
+        <item>Máquina Adutora</item>
+        <item>Adutora em Polia Baixa</item>
+        <item>Peso Morto Sumô / Levantamento Terra Sumô</item>
+    </string-array>
+
+<!-- Exercícios de Abdutores -->
+    <string-array name="img_abdutores">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+    </string-array>
+
+    <string-array name="exercises_array13">
+        <item>Máquina Abdutora</item>
+        <item>Abdução em Polia Baixa</item>
+        <item>Abdução no Chão</item>
+    </string-array>
+
+<!-- Exercícios de Panturrilhas -->
+    <string-array name="img_panturrilhas">
+        <item>@drawable/ic_peitoral01</item>
+        <item>@drawable/ic_peitoral02</item>
+        <item>@drawable/ic_peitoral03</item>
+        <item>@drawable/ic_peitoral01</item>
+    </string-array>
+
+    <string-array name="exercises_array14">
+        <item>Panturrilhas em Pé</item>
+        <item>Panturrilhas em Máquina</item>
+        <item>Panturrilhas Sentado</item>
+        <item>Panturrilhas Tipo Burro</item>
+    </string-array>
+
+<!-- Conteúdo dos profiles da Activity de Créditos -->
+    <string-array name="img_profiles_array">
+        <item>@drawable/ic_profile1</item>
+        <item>@drawable/ic_profile2</item>
+        <item>@drawable/ic_profile3</item>
+    </string-array>
+
+    <string-array name="profile_name_array">
+        <item>Fábio Kioshi Michiura</item>
+        <item>Felipe Alves Feitosa</item>
+        <item>Joel Silva</item>
+    </string-array>
+
+    <string-array name="profession_array">
+        <item>Desenvolvedor</item>
+        <item>Educador Físico / Colaborador</item>
+        <item>Educador Físico / Colaborador</item>
+    </string-array>
+
+    <string-array name="email_array">
+        <item>fabiomichiura@outlook.com</item>
+        <item>felipealvesfeitosa@gmail.com</item>
+        <item>joeleducacaofisica@outlook.com</item>
+    </string-array>
+</resources>

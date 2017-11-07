@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_training2"
+    app:theme="@style/AlertDialog.AppCompat.Light"
+    tools:context="com.fkmichiura.project.fittraining.Activities.ExerciseItemActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/exercise_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_start_color"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/exercise_image"
+                android:layout_width="264dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:contentDescription="@string/exercise_image"
+                app:srcCompat="@drawable/ic_exerc01" />
+
+            <LinearLayout
+                android:id="@+id/exerc_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/exercise_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#50999999"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:text="@string/exercise_title"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/exercDBName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:background="#50999999"
+                    android:paddingBottom="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="24dp"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/exercise_series"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#50999999"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:text="@string/exercise_item_series_number"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/exercDBSeries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:background="#50999999"
+                    android:paddingBottom="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="24dp"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/exercise_repetitions"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#50999999"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:text="@string/exercise_item_repetition_avg"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/exercDBRepet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:background="#50999999"
+                    android:paddingBottom="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="24dp"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/exercise_pause"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#50999999"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp"
+                    android:text="@string/exercise_item_break_time"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/exercDBPause"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:background="#50999999"
+                    android:paddingBottom="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="24dp"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/exercise_item_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/exercise_profile"
+            android:layout_marginBottom="48dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/training_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:text="@string/exercise_item_notice"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/exFloatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_plus"
+        app:backgroundTint="#39FF14"
+        app:fabSize="normal" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/black"
+        android:paddingTop="52dp">
+
+    </FrameLayout>
+
+</FrameLayout>

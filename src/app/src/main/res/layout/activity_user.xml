@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_title"
+    android:padding="24dp"
+    android:weightSum="1"
+    tools:context="com.fkmichiura.project.fittraining.Activities.UserActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_logo"
+            app:srcCompat="@drawable/img_logo" />
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:hint="@string/user_name"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/inputAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:hint="@string/user_age"
+            android:inputType="number"
+            android:padding="8dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/inputWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:hint="@string/user_weight"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/inputGym"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:hint="@string/user_gym"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/inputEvalInit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/user_evaluation"
+            android:inputType="date"
+            android:padding="8dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/inputEvalFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="@string/user_revaluation"
+            android:inputType="date"
+            android:padding="8dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/inputInstructor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:hint="@string/user_professor"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/regBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bg_rounded_button"
+            android:text="@string/register"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </LinearLayout>
+
+</ScrollView>

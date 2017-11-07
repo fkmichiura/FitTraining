@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="appodeal-1.15.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/appodeal-1.15.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
